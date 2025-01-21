@@ -16,7 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Nimesh's Portfolio",
   description: "Hey, I am a front-end developer!",
-  
+  icons: {
+    icon: "/logo3.png", // Ensure file extension is lowercase
+  },
 };
 
 export default function RootLayout({
@@ -26,17 +28,22 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* Specify type for SVG favicon */}
+        <link rel="icon" href="/logo3.png" type="image/svg+xml" />
+        {/* You can also add other meta tags here */}
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <ThemeProvider
-            attribute="class"
-            defaultTheme="dark"
-            enableSystem
-            disableTransitionOnChange
-          >
-            {children}
-          </ThemeProvider>
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );

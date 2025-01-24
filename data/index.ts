@@ -70,22 +70,23 @@ export const gridItems = [
 ];
 
 export const projects = [
-    {
+  {
     id: 1,
+    title: "Admin Dashboard",
+    des: "A clean and visually appealing admin dashboard built using React components and styled with CSS. It features project cards, navigation menus, and interactive sections for an enhanced user experience.",
+    img: "/ad-db.png",
+    iconLists: ["/re.svg", "/tail.svg"],
+    link: "https://admin-dashboard-black-phi.vercel.app/",
+  },
+    {
+    id: 2,
     title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects, showcasing advanced front-end development and interactive design skills. ",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://apple-clone-site-phi.vercel.app/",
   },
-  // {
-  //   id: 2,
-  //   title: "AI Image SaaS - Canva Application",
-  //   des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-  //   img: "/p3.svg",
-  //   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-  //   link: "https://github.com/adrianhajdin/ai_saas_app",
-  // },
+  
 
   // {
   //   id: 3,

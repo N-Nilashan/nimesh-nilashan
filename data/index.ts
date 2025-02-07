@@ -88,14 +88,14 @@ export const projects = [
   },
   
 
-  // {
-  //   id: 3,
-  //   title: "3D Solar System Planets to Explore",
-  //   des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-  //   img: "/p1.svg",
-  //   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-  //   link: "https://github.com/adrianhajdin?tab=repositories",
-  // },
+  {
+    id: 3,
+    title: "Spend-Sense Expense Tracker",
+    des: " SpendSense is a full-stack expense tracker built with Next.js, Tailwind CSS, and Neon Database, showcasing expertise in full-stack development, UI/UX design, and secure financial app development.",
+    img: "/p5.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", ],
+    link: "https://spend-sense-eight.vercel.app/",
+  },
   // {
   //   id: 4,
   //   title: "Yoom - Video Conferencing App",
